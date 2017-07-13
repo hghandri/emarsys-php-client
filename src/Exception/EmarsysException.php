@@ -11,6 +11,11 @@
 
 namespace Emarsys\Exception;
 
+/**
+ * Interface EmarsysException
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 interface EmarsysException
 {
 }

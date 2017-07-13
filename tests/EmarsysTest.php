@@ -16,6 +16,11 @@ use Emarsys\Emarsys;
 use Emarsys\Exception\Api\NotFoundException;
 use Emarsys\HttpClient\Builder;
 
+/**
+ * Class EmarsysTest
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class EmarsysTest extends TestCase
 {
     /**
@@ -23,6 +28,9 @@ class EmarsysTest extends TestCase
      */
     private $emarsys;
 
+    /**
+     * {@inheritdoc}
+     */
     public function setUp()
     {
         $this->emarsys = new Emarsys('username', 'secret');

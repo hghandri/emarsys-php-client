@@ -13,6 +13,11 @@ namespace Emarsys\Exception\Api;
 
 use Emarsys\Exception\EmarsysException;
 
+/**
+ * Class LogicException
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class LogicException extends \LogicException implements EmarsysException
 {
 }

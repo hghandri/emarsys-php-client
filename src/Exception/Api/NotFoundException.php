@@ -13,6 +13,11 @@ namespace Emarsys\Exception\Api;
 
 use Emarsys\Exception\EmarsysException;
 
+/**
+ * Class NotFoundException
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class NotFoundException extends \BadMethodCallException implements EmarsysException
 {
     public function __construct($class = '', $code = 0, \Throwable $previous = null)

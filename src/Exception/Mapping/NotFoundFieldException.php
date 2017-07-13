@@ -13,6 +13,11 @@ namespace Emarsys\Exception\Mapping;
 
 use Emarsys\Exception\EmarsysException;
 
+/**
+ * Class NotFoundFieldException
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class NotFoundFieldException extends \InvalidArgumentException implements EmarsysException
 {
     public function __construct($field)

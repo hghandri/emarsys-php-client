@@ -13,6 +13,11 @@ namespace Emarsys\Test;
 
 use PHPUnit\Framework\TestCase as BaseTestCase;
 
+/**
+ * Class TestCase
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 abstract class TestCase extends BaseTestCase
 {
 }

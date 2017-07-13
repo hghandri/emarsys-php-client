@@ -21,6 +21,7 @@ use Http\Message\MessageFactory;
 /**
  * Class Emarsys.
  *
+ * @author Claude Khedhiri <claude@khedhiri.com>
  *
  * @method Api\Contacts contacts()
  * @method Api\Fields fields()

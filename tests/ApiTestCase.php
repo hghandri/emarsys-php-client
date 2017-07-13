@@ -11,6 +11,11 @@
 
 namespace Emarsys\Test;
 
+/**
+ * Class ApiTestCase
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class ApiTestCase extends TestCase
 {
 }

@@ -14,7 +14,12 @@ namespace Emarsys\Mapping;
 use Emarsys\Exception\Mapping\NotFoundFieldException;
 use Emarsys\Test\TestCase;
 
-class FieldTest extends TestCase
+/**
+ * Class FieldsTest
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
+class FieldsTest extends TestCase
 {
     /**
      * @var Fields

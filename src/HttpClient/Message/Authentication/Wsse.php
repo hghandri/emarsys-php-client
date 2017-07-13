@@ -14,6 +14,11 @@ namespace Emarsys\HttpClient\Message\Authentication;
 use Http\Message\Authentication;
 use Psr\Http\Message\RequestInterface;
 
+/**
+ * Class Wsse
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 final class Wsse implements Authentication
 {
     /**

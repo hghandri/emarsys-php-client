@@ -18,6 +18,11 @@ use Http\Promise\Promise;
 use Psr\Http\Message\RequestInterface;
 use Psr\Http\Message\ResponseInterface;
 
+/**
+ * Class AbstractApi
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 abstract class AbstractApi implements ApiInterface
 {
     /**

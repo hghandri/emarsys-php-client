@@ -22,6 +22,11 @@ use Http\Message\MessageFactory;
 use Http\Message\RequestFactory;
 use Symfony\Component\OptionsResolver\OptionsResolver;
 
+/**
+ * Class Builder
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class Builder
 {
     /**

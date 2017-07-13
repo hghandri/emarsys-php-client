@@ -14,6 +14,11 @@ namespace Emarsys\Api;
 use Http\Client\Common\PluginClient;
 use Http\Message\RequestFactory;
 
+/**
+ * Interface ApiInterface
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 interface ApiInterface
 {
     /**

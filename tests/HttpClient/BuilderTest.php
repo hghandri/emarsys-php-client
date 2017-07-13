@@ -15,6 +15,11 @@ use Emarsys\HttpClient\Builder;
 use Emarsys\Test\TestCase;
 use Http\Client\HttpAsyncClient;
 
+/**
+ * Class BuilderTest
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class BuilderTest extends TestCase
 {
     public function testConstruct()

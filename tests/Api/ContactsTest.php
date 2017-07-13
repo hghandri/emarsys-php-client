@@ -13,6 +13,11 @@ namespace Emarsys\Test\Api;
 
 use Emarsys\Test\ApiTestCase;
 
+/**
+ * Class ContactsTest
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class ContactsTest extends ApiTestCase
 {
     public function testConstructor()

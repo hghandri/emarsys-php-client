@@ -14,6 +14,11 @@ namespace Emarsys\Api;
 use Http\Promise\Promise;
 use Psr\Http\Message\ResponseInterface;
 
+/**
+ * Class ContactLists
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
 class ContactLists extends AbstractApi
 {
     /**

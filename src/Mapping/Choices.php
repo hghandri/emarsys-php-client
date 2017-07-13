@@ -13,7 +13,12 @@ namespace Emarsys\Mapping;
 
 use Emarsys\Exception\Mapping\NotFoundFieldException;
 
-class Choice
+/**
+ * Class Choices
+ *
+ * @author Claude Khedhiri <claude@khedhiri.com>
+ */
+class Choices
 {
     /**
      * @var array
